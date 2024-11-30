@@ -1,10 +1,13 @@
 import React from 'react'
+import LoginPage from './pages/loginPage'
 
 const App = () => {
   return (
-    <div class="bg-green-500 text-white p-4">
-      This My First React App Alhamdullilah.
-    </div>
+    <>
+      <LoginPage/>
+      
+    </>
+
   )
 }
 
